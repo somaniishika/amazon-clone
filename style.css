@@ -308,3 +308,18 @@ span{
 .made-by{
     font-weight: 700;
 }
+
+@media (max-width:1240px) {
+    .box {
+        background-color: white;
+        height: 380px;
+        width: 32%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }  
+
+    .shop-section {
+        min-width: 1000px;
+    }
+}
